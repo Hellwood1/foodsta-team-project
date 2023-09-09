@@ -35,7 +35,7 @@ address {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   background-color: #fefefe;
   color: #2c2c2c;
@@ -99,8 +99,6 @@ body {
 .button-header:focus {
   background-color: var(--links-color);
 }
-=======
-
 .footer-element {
   display: flex;
 }
