@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -43,13 +42,22 @@
     </header>
     <main>
       <!-- Hero Gleb -->
-        <section>
-      <h1>Enjoy Your Favorite Food From Anywhere</h1>
-      <p>With just a few clicks, you can have your favorite meals delivered straight to your doorstep, no matter
-        where you are.
-        Order now and enjoy a hassle-free and delicious meal from the comfort of your own home.</p>
-      <button type="button">Order Now</button><img src="./images/food-dish-1.png" alt="food" width="528" height="528">
-    </section>
+      <section>
+        <h1>Enjoy Your Favorite Food From Anywhere</h1>
+        <p>
+          With just a few clicks, you can have your favorite meals delivered
+          straight to your doorstep, no matter where you are. Order now and
+          enjoy a hassle-free and delicious meal from the comfort of your own
+          home.
+        </p>
+        <button type="button">Order Now</button
+        ><img
+          src="./images/food-dish-1.png"
+          alt="food"
+          width="528"
+          height="528"
+        />
+      </section>
       <!-- Offerings  Ihor-->
       <section>
         <img src="./images/apple.png" alt="apple" width="396" height="502" />
@@ -83,12 +91,54 @@
         <h2>Some of Our Favorites</h2>
         <p>Looking for something delicious?</p>
         <ul>
-          <li><img src="./images/dishes/gamburger-min.png" alt="gamburger" width="315" height="315" /></li>
-          <li><img src="./images/dishes/pasta-min.png" alt="pasta" width="315" height="315" /></li>
-          <li><img src="./images/dishes/pizza-min.png" alt="pizza" width="315" height="315" /></li>
-          <li><img src="./images/dishes/chicken-min.png" alt="chicken" width="315" height="315" /></li>
-          <li><img src="./images/dishes/salat-min.png" alt="salat" width="315" height="315" /></li>
-          <li><img src="./images/dishes/borshch-min.png" alt="borchch" width="315" height="315" /></li>
+          <li>
+            <img
+              src="./images/dishes/gamburger-min.png"
+              alt="gamburger"
+              width="315"
+              height="315"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/dishes/pasta-min.png"
+              alt="pasta"
+              width="315"
+              height="315"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/dishes/pizza-min.png"
+              alt="pizza"
+              width="315"
+              height="315"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/dishes/chicken-min.png"
+              alt="chicken"
+              width="315"
+              height="315"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/dishes/salat-min.png"
+              alt="salat"
+              width="315"
+              height="315"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/dishes/borshch-min.png"
+              alt="borchch"
+              width="315"
+              height="315"
+            />
+          </li>
         </ul>
       </section>
       <!-- Customers Say Inna -->
@@ -162,19 +212,59 @@
     </main>
     <!-- Footer Pasha -->
 
-      <footer>
-        <div class="container">
-          <img src="./images/foodsta.jpg" alt="logo footer" />
-           <ul class="footer-elements">
-             <li><a href="./index.html">Home</a></li>
-             <li><a href="./index.html">About</a></li>
-             <li><a href="./index.html">Service</a></li>
-             <li><a href="./index.html">Menu</a></li>
-             <li><a href="./index.html">Contact</a></li>
-           </ul>
-        </div>
-      </footer>
-
+    <footer>
+      <div class="container">
+        <img src="./images/foodsta.jpg" alt="logo footer" />
+        <ul class="footer-elements">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./index.html">About</a></li>
+          <li><a href="./index.html">Service</a></li>
+          <li><a href="./index.html">Menu</a></li>
+          <li><a href="./index.html">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+    <div class="backdrop">
+      <div class="modal">
+        <button class="close-btn">X</button>
+        <p class="modal-text">Order Form</p>
+        <form class="form-modal">
+          <div class="input-wrapper">
+            <label for="user-name" class="modal-label">Name</label
+            >
+            <div class="icon-wrap">
+            <input
+              type="text"
+              class="modal-input"
+              
+              id="user-name"
+            />
+            <svg class="icon-modal" width="18" height="20">
+              <use href="./images/icons.svg#icon-user"></use>
+            </svg>
+          </div>
+          </div>
+          <div class="input-wrapper">
+            <label for="user-phone" class="modal-label">Phone number</label
+            ><input
+              type="tel"
+              class="modal-input"
+              placeholder="+38(0_ _) _ _ _   _ _   _ _"
+              id="user-phone"
+            />
+          </div>
+          <div class="input-wrapper input-email-wrap">
+            <label for="user-email" class="modal-label">E-mail</label
+            ><input
+              type="email"
+              class="modal-input"
+              placeholder="example@gmail.com"
+              id="user-email"
+            />
+          </div>
+          <button class="modal-send-btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
-
