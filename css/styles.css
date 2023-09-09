@@ -46,6 +46,7 @@ body {
   padding-left: 16px;
   padding-right: 16px;
 }
+
 /* HEADER */
 .page-header {
   box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.1);
@@ -97,4 +98,9 @@ body {
 .button-header:hover,
 .button-header:focus {
   background-color: var(--links-color);
+}
+=======
+
+.footer-element {
+  display: flex;
 }
