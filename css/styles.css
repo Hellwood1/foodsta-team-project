@@ -1,3 +1,6 @@
+:root {
+  --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 /* Стилі для обнулення верхніх відступів у елементів */
 h1,
 h2,
@@ -115,6 +118,7 @@ button {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
+  transition: opacity var(--timing-function), visibility var(--timing-function);
 }
 .modal {
   position: absolute;
