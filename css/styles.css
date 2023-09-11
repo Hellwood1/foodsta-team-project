@@ -9,7 +9,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: var(--black);
-  background-color: #fefefe;
+  background-color: var(----white);
 }
 h1,
 h2,
@@ -20,6 +20,7 @@ h6,
 p {
   margin: 0;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -32,17 +33,27 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
+
 button {
   cursor: pointer;
   color: currentColor;
   font-family: inherit;
 }
+
 input {
   font-family: inherit;
 }
+
 /* Клас для обнулення нижнього підкреслення у посилань */
 .link {
   text-decoration: none;
+}
+
+/* Контейнер для центрування контенту (можна реалізовувати як на секцію, так і на div контейнер)*/
+.page-container {
+  width: 1248px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /****************************HERO SECTION. IHOR*******************************/
@@ -98,13 +109,7 @@ input {
   background-color: var(--White, #fefefe);
   max-width: 100%;
 }
-=======
-/* Контейнер для центрування контенту (можна реалізовувати як на секцію, так і на div контейнер)*/
-.page-container {
-  width: 1248px;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 /* OFFERINGS-SECTION */
 .offerings-section {
   background-color: var(--yellow-main);
