@@ -44,3 +44,57 @@ input {
 .link {
   text-decoration: none;
 }
+
+/****************************HERO SECTION. IHOR*******************************/
+
+.hero-title {
+  color: var(--Black, #2c2c2c);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-left: 16px;
+  margin-bottom: 28px;
+  width: 502px;
+  height: 116px;
+  background-color: var(----white);
+}
+
+.hero-text {
+  color: var(--Black, #2c2c2c);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 511px;
+  height: 69px;
+  flex-shrink: 0;
+  margin-bottom: 40px;
+  margin-left: 16px;
+}
+
+.hero-btn {
+  color: var(--Black, #2c2c2c);
+  text-align: right;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  display: inline-flex;
+  padding: 6px 18px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: var(--light-green);
+  border: none;
+  margin-left: 16px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #ffe450;
+}
+
+.hero-img {
+  border-radius: 580px;
+  border: 26px solid var(--Yellow-main, #ffe550);
+  background-color: var(--White, #fefefe);
+  max-width: 100%;
+}
