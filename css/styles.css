@@ -40,7 +40,13 @@ button {
 input {
   font-family: inherit;
 }
-/* Клас для обнулення базових властивостей у посилань */
+/* Клас для обнулення нижнього підкреслення у посилань */
 .link {
   text-decoration: none;
+}
+/* Контейнер для центрування контенту (можна реалізовувати як на секцію, так і на div контейнер)*/
+.page-container {
+  width: 1248px;
+  margin-left: auto;
+  margin-right: auto;
 }
