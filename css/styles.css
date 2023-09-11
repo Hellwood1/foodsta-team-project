@@ -8,7 +8,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
-  color: #2c2c2c;
+  color: var(--black);
   background-color: #fefefe;
 }
 h1,
@@ -40,7 +40,7 @@ button {
 input {
   font-family: inherit;
 }
-/* Клас для обнулення базових властивостей у посилань */
+/* Клас для обнулення нижнього підкреслення у посилань */
 .link {
   text-decoration: none;
 }
@@ -98,3 +98,128 @@ input {
   background-color: var(--White, #fefefe);
   max-width: 100%;
 }
+=======
+/* Контейнер для центрування контенту (можна реалізовувати як на секцію, так і на div контейнер)*/
+.page-container {
+  width: 1248px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* OFFERINGS-SECTION */
+.offerings-section {
+  background-color: var(--yellow-main);
+  padding: 167px 51px 124px 16px;
+}
+
+
+.offerings {
+  display: flex;
+  align-items: center;
+}
+
+
+.border-wrap {
+  width: 550px;
+  gap: 550px;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+  border-radius: 550px;
+  padding: 24px;
+}
+
+
+.image-apple-wrap {
+  width: 502px;
+  height: 502px;
+  border-radius: 50%;
+  background-color: var(--white);
+  position: relative;
+}
+
+
+.img-offerings {
+  position: absolute;
+  left: 50%;
+  bottom: 78px;
+  transform: translateX(-50%);
+}
+
+
+.offering-description-wrap {
+  margin-left: auto;
+  max-width: 573px;
+}
+
+
+.offerings-title {
+  font-size: 42px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+
+.offerings-text {
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+
+
+.offerings-list {
+  display: flex;
+  gap: 67px;
+  margin-bottom: 32px;
+}
+
+
+.offerings-icon-wrap {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+
+.offerings-item-title {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+
+.offerings-item-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+
+.offerings-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  border: 2px solid #7eb101;
+  background: var(--white);
+  width: 106px;
+  height: 40px;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  transition: background-color var(--timing-function), border var(--timing-function);
+}
+
+.offerings-button:hover,
+.offerings-button:focus{
+  border: none;
+  background-color: var(--light-green);
+}
+
+/* / OFFERINGS SECTION */
+=======
+/* Header section  */
+
+/*/Header section  */
