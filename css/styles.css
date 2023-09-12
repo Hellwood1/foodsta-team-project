@@ -58,9 +58,14 @@ input {
 
 /****************************HERO SECTION. IHOR*******************************/
 
+.hero {
+  padding-bottom: 95px;
+}
+
 .hero-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .hero-description-wrap {
@@ -103,7 +108,7 @@ input {
   border-radius: 30px;
   background-color: var(--light-green);
   border: none;
-  /* margin-left: 16px; */
+  margin-left: 16px;
   transition: background-color var(--timing-function), border var(--timing-function);
 }
 
@@ -116,7 +121,6 @@ input {
   border-radius: 580px;
   border: 26px solid var(--Yellow-main, #ffe550);
   background-color: var(--White, #fefefe);
-  margin-bottom: 95px;
 }
 
 .hero-img {
@@ -168,7 +172,6 @@ input {
 
 
 .offering-description-wrap {
-  margin-left: auto;
   max-width: 573px;
 }
 
