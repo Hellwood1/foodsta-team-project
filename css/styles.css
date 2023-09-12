@@ -58,12 +58,20 @@ input {
 
 /****************************HERO SECTION. IHOR*******************************/
 
+.hero-container {
+  display: flex;
+  align-items: center;
+}
+
+.hero-description-wrap {
+}
+
 .hero-title {
   color: var(--Black, #2c2c2c);
   font-size: 48px;
   font-weight: 700;
   line-height: 1.2;
-  margin-left: 16px;
+  /* margin-left: 16px; */
   margin-bottom: 28px;
   width: 502px;
   height: 116px;
@@ -79,7 +87,7 @@ input {
   height: 69px;
   flex-shrink: 0;
   margin-bottom: 40px;
-  margin-left: 16px;
+  /* margin-left: 16px; */
 }
 
 .hero-btn {
@@ -95,7 +103,8 @@ input {
   border-radius: 30px;
   background-color: var(--light-green);
   border: none;
-  margin-left: 16px;
+  /* margin-left: 16px; */
+  transition: background-color var(--timing-function), border var(--timing-function);
 }
 
 .hero-btn:hover,
@@ -103,18 +112,27 @@ input {
   background-color: #ffe450;
 }
 
-.hero-img {
+.hero-img-container {
   border-radius: 580px;
   border: 26px solid var(--Yellow-main, #ffe550);
   background-color: var(--White, #fefefe);
-  max-width: 100%;
+  margin-bottom: 95px;
 }
+
+.hero-img {
+
+}
+  
+
+
+/*/***************************HERO SECTION. IHOR*******************************/
 
 /* OFFERINGS-SECTION */
 .offerings-section {
   background-color: var(--yellow-main);
   padding: 167px 51px 124px 16px;
 }
+
 
 
 .offerings {
