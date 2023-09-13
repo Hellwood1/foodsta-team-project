@@ -109,7 +109,8 @@ input {
   background-color: var(--light-green);
   border: none;
   margin-left: 16px;
-  transition: background-color var(--timing-function), border var(--timing-function);
+  transition: background-color var(--timing-function),
+    border var(--timing-function);
 }
 
 .hero-btn:hover,
@@ -124,10 +125,7 @@ input {
 }
 
 .hero-img {
-
 }
-  
-
 
 /*/***************************HERO SECTION. IHOR*******************************/
 
@@ -137,11 +135,6 @@ input {
   padding: 167px 51px 124px 16px;
 }
 
-<<<<<<< Updated upstream
-
-
-=======
->>>>>>> Stashed changes
 .offerings {
   display: flex;
   align-items: center;
@@ -171,6 +164,7 @@ input {
 }
 
 .offering-description-wrap {
+  margin-left: auto;
   max-width: 573px;
 }
 
