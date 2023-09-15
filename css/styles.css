@@ -358,6 +358,7 @@ input {
   border-radius: 30px;
   border-color: var(--light-green);
   background-color: var(--light-green);
+  transition: var(--timing-function);
 }
 .button-subscribe:hover,
 .button-subscribe:focus {
