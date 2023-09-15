@@ -296,3 +296,74 @@ input {
 
 /* SECTION SUBSCRIBE */
 
+.subscribe-section {
+  background-color: var(--white);
+  padding-top: 176px;
+  padding-bottom: 201px;
+}
+
+.subscribe-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subscribe-form-cover {
+}
+
+.subscribe-title {
+  width: 656px;
+  margin-bottom: 20px;
+  color: var(--black);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.subscribe-text {
+  width: 532px;
+  margin-bottom: 24px;
+  color: var(--black);
+  font-size: 16px;
+  line-height: 1.5;
+}
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.subscribe-form:focus-within {
+  border-color: var(--yellow-main);
+}
+.subscribe-label {
+  display: block;
+}
+.subscribe-input {
+  width: 395px;
+  height: 42px;
+  padding: 12px;
+  border-radius: 30px;
+  border: 1px solid var(--yellow-main);
+  background: var(--white);
+}
+
+.button-subscribe {
+  padding: 11px 22px;
+  justify-content: center;
+  align-items: center;
+  color: var(--black);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: none;
+  border-radius: 30px;
+  border-color: var(--light-green);
+  background-color: var(--light-green);
+}
+.button-subscribe:hover,
+.button-subscribe:focus {
+  background-color: var(--yellow-main);
+  border-color: var(--yellow-main);
+}
+
+.subscribe-img-cover {
+}
