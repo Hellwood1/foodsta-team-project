@@ -346,6 +346,11 @@ input {
   background: var(--white);
 }
 
+/* .subscribe-input:hover,
+.subscribe-input:focus {
+  border-color: var(--light-green);
+} */
+
 .button-subscribe {
   padding: 11px 22px;
   justify-content: center;
