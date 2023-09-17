@@ -9,7 +9,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: var(--black);
-  background-color: var(----white);
+  background-color: var(--white);
 }
 h1,
 h2,
@@ -300,6 +300,13 @@ input {
   padding-bottom: 100px;
 }
 
+.favorites-container {
+  width: 1280px;
+  padding-left: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .our-favorites-header {
   color: var(--Black, #2c2c2c);
   text-align: center;
@@ -318,24 +325,21 @@ input {
 
 .our-favorites-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   flex-wrap: wrap;
   align-content: center;
-  column-gap: 32px;
-  row-gap: 32px;
+  gap: 32px;
 }
 
 .our-favorites-img-container {
   border-radius: 197px;
-  padding-left: 24px;
   width: 395px;
   height: 397px;
   flex-shrink: 0;
-  border: 16px solid var(--Yellow-main, #ffe550);
-  background: var(--White, #fefefe);
+  border: 16px solid var(--yellow-main);
   display: flex;
   align-items: center;
+  justify-content: center;
+  transition: border var(--timing-function);
 }
 
 .our-favorites-img-container:hover,

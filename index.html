@@ -1,177 +1,266 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Kalam&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Kalam&family=Roboto:wght@400;500;700&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="./css/styles.css" />
-  <title>Document</title>
-</head>
-
-<body>
-  <header class="page-header">
-    <div class="page-container header-container">
-      <nav class="header-nav">
-        <a class="header-link" href="./index.html"><img class="header-logo" src="./images/logo.png" width="66"
-            height="52" alt="logotype" /></a>
-        <ul class="header-nav-list">
-          <li class="header-nav-list-item">
-            <a class="header-nav-item-link" href="./index.html">Home</a>
-          </li>
-          <li class="header-nav-list-item">
-            <a class="header-nav-item-link link" href="">About</a>
-          </li>
-          <li class="header-nav-list-item">
-            <a class="header-nav-item-link link" href="">Service</a>
-          </li>
-          <li class="header-nav-list-item">
-            <a class="header-nav-item-link link" href="">Menu</a>
-          </li>
-          <li class="header-nav-list-item">
-            <a class="header-nav-item-link link" href="">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <button class="header-order-btn" type="button" data-first-modal-open>Order Now</button>
-    </div>
-  </header>
-  <main>
-    <!-- HERO SECTION Ihor -->
-    <section class="hero">
-      <div class="page-container hero-container">
-        <div class="hero-description-wrap">
-          <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
-          <p class="hero-text">
-            With just a few clicks, you can have your favorite meals delivered
-            straight to your doorstep, no matter where you are. Order now and
-            enjoy a hassle-free and delicious meal from the comfort of your
-            own home.
-          </p>
-          <button class="hero-btn" type="button" data-first-modal-open>Order Now</button>
-        </div>
-        <div class="hero-img-container">
-          <img class="hero-img" src="./images/hero-img.png" alt="salad" width="528" height="528" />
-        </div>
-      </div>
-    </section>
-
-    <!-- OFFERINGS SECTION -->
-    <section class="offerings-section">
-      <!-- Vlad -->
-      <div class="page-container offerings">
-        <div class="border-wrap">
-          <div class="image-apple-wrap">
-            <img class="img-offerings" src="./images/apple.png" alt="apple" width="396" />
-          </div>
-        </div>
-        <div class="offering-description-wrap">
-          <h2 class="offerings-title">What’s Special About Our Offerings</h2>
-
-          <p class="offerings-text">
-            With our platform, you can browse through a diverse selection of
-            cuisines and local restaurants, and choose from a variety of
-            dishes that cater to your specific taste buds.
-          </p>
-
-          <ul class="offerings-list">
-            <li class="offerings-item">
-              <div class="offerings-icon-wrap">
-                <svg class="offerings-icon" width="32" height="32">
-                  <use href="./images/icons.svg#icon-rocket"></use>
-                </svg>
-              </div>
-              <h3 class="offerings-item-title">Fasest Delivery</h3>
-              <p class="offerings-item-text">
-                Our advanced logistics system and dedicated delivery partners
-                ensure that your meals are delivered to you within 30-minutes.
-              </p>
+  <body>
+    <header class="page-header">
+      <div class="page-container header-container">
+        <nav class="header-nav">
+          <a class="header-link" href="./index.html"
+            ><img
+              class="header-logo"
+              src="./images/logo.png"
+              width="66"
+              height="52"
+              alt="logotype"
+          /></a>
+          <ul class="header-nav-list">
+            <li class="header-nav-list-item">
+              <a class="header-nav-item-link" href="./index.html">Home</a>
             </li>
-            <li class="offerings-item">
-              <div class="offerings-icon-wrap">
-                <svg class="offerings-icon" width="32" height="32">
-                  <use href="./images/icons.svg#icon-touch"></use>
-                </svg>
-              </div>
-              <h3 class="offerings-item-title">Easy To Order</h3>
-              <p class="offerings-item-text">
-                You can browse through a wide variety of cuisines and
-                restaurants, select your favorite meals, and place your order
-                in just a few clicks.
-              </p>
+            <li class="header-nav-list-item">
+              <a class="header-nav-item-link link" href="">About</a>
+            </li>
+            <li class="header-nav-list-item">
+              <a class="header-nav-item-link link" href="">Service</a>
+            </li>
+            <li class="header-nav-list-item">
+              <a class="header-nav-item-link link" href="">Menu</a>
+            </li>
+            <li class="header-nav-list-item">
+              <a class="header-nav-item-link link" href="">Contact</a>
             </li>
           </ul>
-
-          <button class="offerings-button" type="button" data-first-modal-open>Order Now</button>
+        </nav>
+        <button class="header-order-btn" type="button" data-first-modal-open>
+          Order Now
+        </button>
+      </div>
+    </header>
+    <main>
+      <!-- HERO SECTION Ihor -->
+      <section class="hero">
+        <div class="page-container hero-container">
+          <div class="hero-description-wrap">
+            <h1 class="hero-title">Enjoy Your Favorite Food From Anywhere</h1>
+            <p class="hero-text">
+              With just a few clicks, you can have your favorite meals delivered
+              straight to your doorstep, no matter where you are. Order now and
+              enjoy a hassle-free and delicious meal from the comfort of your
+              own home.
+            </p>
+            <button class="hero-btn" type="button" data-first-modal-open>
+              Order Now
+            </button>
+          </div>
+          <div class="hero-img-container">
+            <img
+              class="hero-img"
+              src="./images/hero-img.png"
+              alt="salad"
+              width="528"
+              height="528"
+            />
+          </div>
         </div>
+      </section>
+
+      <!-- OFFERINGS SECTION -->
+      <section class="offerings-section">
+        <!-- Vlad -->
+        <div class="page-container offerings">
+          <div class="border-wrap">
+            <div class="image-apple-wrap">
+              <img
+                class="img-offerings"
+                src="./images/apple.png"
+                alt="apple"
+                width="396"
+              />
+            </div>
+          </div>
+          <div class="offering-description-wrap">
+            <h2 class="offerings-title">What’s Special About Our Offerings</h2>
+
+            <p class="offerings-text">
+              With our platform, you can browse through a diverse selection of
+              cuisines and local restaurants, and choose from a variety of
+              dishes that cater to your specific taste buds.
+            </p>
+
+            <ul class="offerings-list">
+              <li class="offerings-item">
+                <div class="offerings-icon-wrap">
+                  <svg class="offerings-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-rocket"></use>
+                  </svg>
+                </div>
+                <h3 class="offerings-item-title">Fasest Delivery</h3>
+                <p class="offerings-item-text">
+                  Our advanced logistics system and dedicated delivery partners
+                  ensure that your meals are delivered to you within 30-minutes.
+                </p>
+              </li>
+              <li class="offerings-item">
+                <div class="offerings-icon-wrap">
+                  <svg class="offerings-icon" width="32" height="32">
+                    <use href="./images/icons.svg#icon-touch"></use>
+                  </svg>
+                </div>
+                <h3 class="offerings-item-title">Easy To Order</h3>
+                <p class="offerings-item-text">
+                  You can browse through a wide variety of cuisines and
+                  restaurants, select your favorite meals, and place your order
+                  in just a few clicks.
+                </p>
+              </li>
+            </ul>
+
+            <button
+              class="offerings-button"
+              type="button"
+              data-first-modal-open
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- /OFFERINGS SECTION -->
+
+      <!-- FAVORITES SECTION -->
+      <section class="our-favorites-background">
+        <div class="favorites-container">
+          <h2 class="our-favorites-header">Some of Our Favorites</h2>
+          <p class="our-favorites-text">Looking for something delicious?</p>
+          <ul class="our-favorites-container">
+            <li class="our-favorites-img-container">
+              <img
+                src="./images/dishes/gamburger-min.png"
+                alt="gamburger"
+                width="315"
+                height="315"
+              />
+            </li>
+            <li class="our-favorites-img-container">
+              <img
+                src="./images/dishes/pasta-min.png"
+                alt="pasta"
+                width="315"
+                height="315"
+              />
+            </li>
+            <li class="our-favorites-img-container">
+              <img
+                src="./images/dishes/pizza-min.png"
+                alt="pizza"
+                width="315"
+                height="315"
+              />
+            </li>
+            <li class="our-favorites-img-container">
+              <img
+                src="./images/dishes/chicken-min.png"
+                alt="chicken"
+                width="315"
+                height="315"
+              />
+            </li>
+            <li class="our-favorites-img-container">
+              <img
+                src="./images/dishes/salat-min.png"
+                alt="salat"
+                width="315"
+                height="315"
+              />
+            </li>
+            <li class="our-favorites-img-container">
+              <img
+                src="./images/dishes/borshch-min.png"
+                alt="borshch"
+                width="315"
+                height="315"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- /FAVORITES SECTION -->
+
+      <section class="customers-comment"><!-- Gleb --></section>
+
+      <section class="subscribe"><!-- Inna --></section>
+    </main>
+    <footer>
+      <!-- Artem -->
+    </footer>
+
+    <!-- MODAL WINDOW -->
+    <div class="backdrop is-hidden" data-first-modal>
+      <div class="modal">
+        <button class="close-modal-btn" type="button" data-first-modal-close>
+          <svg class="icon-close-bodal" width="24" height="24">
+            <use href="./images/icons.svg#icon-close-modal"></use>
+          </svg>
+        </button>
+        <p class="modal-text">Order Form</p>
+        <form class="modal-form">
+          <label for="user-name" class="label-modal">Name</label>
+          <input
+            type="text"
+            class="modal-input"
+            id="user-name"
+            name="user-name"
+            pattern="[a-zA-Zа-яА-ЯЇїіІґҐʼ]+"
+            title="Oleksandr"
+            placeholder="Your name"
+            required
+          />
+          <label for="user-phone" class="label-modal">Phone number</label>
+          <input
+            type="tel"
+            class="modal-input"
+            id="user-phone"
+            name="user-phone"
+            pattern="[+0-9{2}-0-9{3}-0-9{3}-0-9{2}-0-9{2}]"
+            title="+38(xxx)-xxx-xx-xx"
+            placeholder="+38(0_ _) _ _ _   _ _   _ _"
+            required
+          />
+          <label for="user-email" class="label-modal">E-mail</label>
+          <input
+            type="email"
+            class="modal-input"
+            id="user-email"
+            name="user-email"
+            title="example@gmail.com"
+            placeholder="example@gmail.com"
+            required
+          />
+          <button class="modal-send-btn" type="submit">Send</button>
+        </form>
       </div>
-    </section>
-    <!-- /OFFERINGS SECTION -->
-
-    <!-- FAVORITES SECTION -->
-    <section class="our-favorites-background">
-      <div>
-        <h2 class="our-favorites-header">Some of Our Favorites</h2>
-        <p class="our-favorites-text">Looking for something delicious?</p>
-        <ul class="our-favorites-container">
-          <li class="our-favorites-img-container"><img src="./images/dishes/gamburger-min.png" alt="gamburger"
-              width="315" height="315"></li>
-          <li class="our-favorites-img-container"><img src="./images/dishes/pasta-min.png" alt="pasta" width="315"
-              height="315"></li>
-          <li class="our-favorites-img-container"><img src="./images/dishes/pizza-min.png" alt="pizza" width="315"
-              height="315"></li>
-          <li class="our-favorites-img-container"><img src="./images/dishes/chicken-min.png" alt="chicken" width="315"
-              height="315"></li>
-          <li class="our-favorites-img-container"><img src="./images/dishes/salat-min.png" alt="salat" width="315"
-              height="315"></li>
-          <li class="our-favorites-img-container"><img src="./images/dishes/borshch-min.png" alt="borshch" width="315"
-              height="315"></li>
-        </ul>
-      </div>
-    </section>
-    <!-- /FAVORITES SECTION -->
-
-    <section class="customers-comment"><!-- Gleb --></section>
-
-    <section class="subscribe"><!-- Inna --></section>
-  </main>
-  <footer>
-    <!-- Artem -->
-  </footer>
-
-  <!-- MODAL WINDOW -->
-  <div class="backdrop is-hidden" data-first-modal>
-    <div class="modal">
-      <button class="close-modal-btn" type="button" data-first-modal-close>
-        <svg class="icon-close-bodal" width="24" height="24">
-          <use href="./images/icons.svg#icon-close-modal"></use>
-        </svg>
-      </button>
-      <p class="modal-text">Order Form</p>
-      <form class="modal-form">
-        <label for="user-name" class="label-modal">Name</label>
-        <input type="text" class="modal-input" id="user-name" name="user-name" pattern="[a-zA-Zа-яА-ЯЇїіІґҐʼ]+"
-          title="Oleksandr" placeholder="Your name" required />
-        <label for="user-phone" class="label-modal">Phone number</label>
-        <input type="tel" class="modal-input" id="user-phone" name="user-phone"
-          pattern="[+0-9{2}-0-9{3}-0-9{3}-0-9{2}-0-9{2}]" title="+38(xxx)-xxx-xx-xx"
-          placeholder="+38(0_ _) _ _ _   _ _   _ _" required />
-        <label for="user-email" class="label-modal">E-mail</label>
-        <input type="email" class="modal-input" id="user-email" name="user-email" title="example@gmail.com"
-          placeholder="example@gmail.com" required />
-        <button class="modal-send-btn" type="submit">Send</button>
-      </form>
     </div>
-  </div>
 
-  <!-- / MODAL WINDOW -->
-  <script src="./js/modal.js"></script>
-</body>
-
+    <!-- / MODAL WINDOW -->
+    <script src="./js/modal.js"></script>
+  </body>
 </html>
