@@ -414,13 +414,19 @@ input {
 
 /* WHAT OUR CUSTOMERS SAY */
 
+.customers-comment-container {
+  width: 1280px;
+  padding-left: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .customers-comment {
   background-color: var(--yellow-main);
   padding: 140px 104px 126px 32px;
 }
 
 .customers-comment-title {
-  color: var(--black);
   font-size: 42px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -428,7 +434,6 @@ input {
 
 .customers-comment-text {
   margin-bottom: 32px;
-  color: var(--Black);
   font-size: 16px;
   font-weight: 400;
 }
