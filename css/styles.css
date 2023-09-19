@@ -1,8 +1,10 @@
 :root {
   --white: #fefefe;
   --black: #2c2c2c;
+  --gray: #505050;
   --yellow-main: #ffe550;
   --light-green: #bbf330;
+  --dark-green: #7eb101;
   --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -61,7 +63,7 @@ input {
   margin-right: auto;
 }
 
-/* HEADER SECTION bY Dmytro */
+/* HEADER SECTION by Dmytro */
 .page-header {
   background: var(--white);
   box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.1);
@@ -80,9 +82,6 @@ input {
   align-items: center;
 }
 
-.header-link {
-}
-
 .header-nav-list {
   display: flex;
   column-gap: 28px;
@@ -93,12 +92,15 @@ input {
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
+  transition: color var(--timing-function);
 }
 
-.header-nav-list-item:first-child .header-nav-item-link {
+.header-nav-item-link:hover,
+.header-nav-item-link:focus {
   color: var(--light-green);
+  outline: none;
+  text-decoration: underline;
 }
-
 .header-order-btn {
   color: var(--black);
   text-align: right;
@@ -117,11 +119,12 @@ input {
   border-radius: 30px;
   background: var(--light-green);
 
-  transition: var(--timing-function);
+  transition: background-color var(--timing-function);
 }
 
 .header-order-btn:hover,
 .header-order-btn:focus {
+  outline: none;
   background-color: var(--yellow-main);
 }
 /* /HEADER SECTION bY Dmytro */
@@ -467,6 +470,7 @@ input {
   font-weight: 700;
   line-height: 1.2;
 }
+
 .subscribe-text {
   width: 532px;
   margin-bottom: 24px;
@@ -474,17 +478,21 @@ input {
   font-weight: 400;
   line-height: 1.5;
 }
+
 .subscribe-form {
   display: flex;
   align-items: center;
   gap: 32px;
 }
+
 .subscribe-form:focus-within {
   border-color: var(--yellow-main);
 }
+
 .subscribe-label {
   display: block;
 }
+
 .subscribe-input {
   width: 395px;
   height: 42px;
@@ -512,6 +520,138 @@ input {
   border-color: var(--yellow-main);
 }
 /* /SUBSCRIBE SECTION by Inna */
+
+/* FOOTER SECTION by DIMA */
+.section-footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  box-shadow: 0px -4px 24px 0px rgba(105, 105, 105, 0.1);
+}
+
+.footer-bk-img {
+  background-image: url(../images/footer-bg-img/bg-desk-1x.jpg);
+  background-position: 56% 116%;
+  background-repeat: no-repeat;
+}
+.footer-logo-container {
+  display: flex;
+  padding-left: 5px;
+  width: 100%;
+  max-width: 530px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-menu-list {
+  display: flex;
+  column-gap: 28px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.footer-menu-list-link {
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.subscribe-footer-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  row-gap: 12px;
+}
+
+.footer-text-subscribe {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.footer-text-policy {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-input {
+  display: inline-flex;
+  height: 42px;
+  padding: 10px 61.5px 12px 12px;
+  align-items: center;
+  flex-shrink: 0;
+  transition: border-color var(--timing-function);
+
+  border-radius: 30px;
+  border: 0.854px solid var(--yellow-main);
+  background: var(--white);
+}
+
+.footer-input:hover,
+.footer-input:focus {
+  border-color: var(--light-green);
+  outline: none;
+}
+
+.footer-input::placeholder {
+  color: var(--gray);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.footer-btn {
+  padding: 11px 22px;
+  margin-left: 13px;
+  border-radius: 30px;
+  border: 0.854px solid var(--dark-green);
+  background: #fff;
+  transition: border-color var(--timing-function);
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+  border-color: var(--yellow-main);
+  outline: none;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.footer-list-link {
+  color: var(--dark-green);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  transition: color var(--timing-function);
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+.footer-menu-list-link {
+  transition: color var(--timing-function);
+}
+
+.footer-menu-list-link:hover,
+.footer-menu-list-link:focus {
+  color: var(--light-green);
+  text-decoration: underline;
+  outline: none;
+}
+
+.footer-list-link:hover,
+.footer-list-link:focus {
+  color: var(--yellow-main);
+}
+/* FOOTER SECTION by Dima */
 
 /* MODAL by Vlad */
 .backdrop {
