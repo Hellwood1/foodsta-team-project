@@ -1,0 +1,65 @@
+/* HEADER SECTION by Dmytro */
+.page-header {
+  background: var(--white);
+  box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.1);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  width: 100%;
+  max-width: 1100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav-list {
+  display: flex;
+  column-gap: 28px;
+}
+
+.header-nav-item-link {
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  transition: color var(--timing-function);
+}
+
+.header-nav-item-link:hover,
+.header-nav-item-link:focus {
+  color: var(--light-green);
+  outline: none;
+  text-decoration: underline;
+}
+.header-order-btn {
+  color: var(--black);
+  text-align: right;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+
+  display: inline-flex;
+  padding: 6px 18px;
+  margin-top: 20px;
+  margin-right: 16px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 30px;
+  background: var(--light-green);
+
+  transition: background-color var(--timing-function);
+}
+
+.header-order-btn:hover,
+.header-order-btn:focus {
+  outline: none;
+  background-color: var(--yellow-main);
+}
+/* /HEADER SECTION bY Dmytro */

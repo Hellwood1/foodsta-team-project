@@ -1,0 +1,54 @@
+/* FAVORITES SECTION by Vlad */
+.our-favorites-background {
+  padding-top: 120px;
+  padding-bottom: 100px;
+}
+
+.favorites-container {
+  width: 1280px;
+  padding-left: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.our-favorites-header {
+  color: var(--Black, #2c2c2c);
+  text-align: center;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.our-favorites-text {
+  color: var(--Black, #2c2c2c);
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.our-favorites-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 32px;
+}
+
+.our-favorites-img-container {
+  border-radius: 197px;
+  width: 395px;
+  height: 397px;
+  flex-shrink: 0;
+  border: 16px solid var(--yellow-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border var(--timing-function);
+}
+
+.our-favorites-img-container:hover,
+.our-favorites-img-container:focus {
+  border: 16px solid var(--light-green);
+}
+
+/* /FAVORITES SECTION */

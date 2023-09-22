@@ -1,0 +1,68 @@
+/****************************HERO SECTION. IHOR*******************************/
+
+.hero {
+  padding-top: 15px;
+  padding-bottom: 69px;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-description-wrap {
+}
+
+.hero-title {
+  color: var(--Black, #2c2c2c);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 28px;
+  width: 502px;
+  height: 116px;
+  background-color: var(----white);
+}
+
+.hero-text {
+  color: var(--Black, #2c2c2c);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  width: 511px;
+  height: 69px;
+  flex-shrink: 0;
+  margin-bottom: 40px;
+}
+
+.hero-btn {
+  color: var(--Black, #2c2c2c);
+  text-align: right;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  display: inline-flex;
+  padding: 6px 18px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  background-color: var(--light-green);
+  border: none;
+  transition: background-color var(--timing-function),
+    border var(--timing-function);
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #ffe450;
+}
+
+.hero-img-container {
+  border-radius: 580px;
+  margin-right: 30px;
+  border: 26px solid var(--Yellow-main, #ffe550);
+  background-color: var(--White, #fefefe);
+}
+
+/*/***************************HERO SECTION. IHOR*******************************/

@@ -1,0 +1,86 @@
+/* CUSTOMERS COMMENT by Gleb */
+
+.customers-comment-container {
+  width: 1280px;
+  padding-left: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.customers-comment {
+  background-color: var(--yellow-main);
+  padding: 140px 104px 126px 32px;
+}
+
+.customers-comment-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.customers-comment-text {
+  margin-bottom: 32px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.comments {
+  display: flex;
+  gap: 139px;
+}
+
+.customers-say-comment {
+  width: 501px;
+  height: 231.579px;
+  flex-shrink: 0;
+
+  border-radius: 0px 30px 30px 30px;
+  background-color: var(--white);
+  display: inline-block;
+}
+
+.customers-say-comment {
+  padding: 14px 14px 15px 14px;
+}
+
+.svg-stars {
+  fill: var(--yellow-main);
+  margin-bottom: 29px;
+}
+
+.comment-text {
+  color: var(--black);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.commentator-profile {
+  display: inline-flex;
+  padding: 0px 3px 1.049px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.commentator-profile::after {
+  content: '';
+  width: 1px;
+  height: 52px;
+  background-color: #7eb101;
+}
+
+.comment-profile-name {
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.comment-profile-status {
+  color: var(--black);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+/* /CUSTOMERS COMMENT by Gleb*/

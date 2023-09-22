@@ -1,0 +1,9 @@
+:root {
+  --white: #fefefe;
+  --black: #2c2c2c;
+  --gray: #505050;
+  --yellow-main: #ffe550;
+  --light-green: #bbf330;
+  --dark-green: #7eb101;
+  --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}

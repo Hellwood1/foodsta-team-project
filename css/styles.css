@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --white: #fefefe;
   --black: #2c2c2c;
   --gray: #505050;
@@ -6,9 +6,9 @@
   --light-green: #bbf330;
   --dark-green: #7eb101;
   --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-body {
+/* body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   color: var(--black);
@@ -47,24 +47,24 @@ button {
 
 input {
   font-family: inherit;
-}
+} */
 
 /* Клас для обнулення нижнього підкреслення у посилань */
-.link {
+/* .link {
   text-decoration: none;
-}
+} */
 
 /* Контейнер для центрування контенту (можна реалізовувати як на секцію, так і на div контейнер)*/
-.page-container {
+/* .page-container {
   width: 1280px;
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 /* HEADER SECTION by Dmytro */
-.page-header {
+/* .page-header {
   background: var(--white);
   box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.1);
 }
@@ -126,12 +126,12 @@ input {
 .header-order-btn:focus {
   outline: none;
   background-color: var(--yellow-main);
-}
+} */
 /* /HEADER SECTION bY Dmytro */
 
 /****************************HERO SECTION. IHOR*******************************/
 
-.hero {
+/* .hero {
   padding-top: 15px;
   padding-bottom: 69px;
 }
@@ -194,12 +194,12 @@ input {
   margin-right: 30px;
   border: 26px solid var(--Yellow-main, #ffe550);
   background-color: var(--White, #fefefe);
-}
+} */
 
 /*/***************************HERO SECTION. IHOR*******************************/
 
 /* OFFERINGS-SECTION by Vlad*/
-.offerings-section {
+/* .offerings-section {
   background-color: var(--yellow-main);
   padding: 167px 51px 124px 16px;
 }
@@ -298,12 +298,12 @@ input {
 .offerings-button:focus {
   border: none;
   background-color: var(--light-green);
-}
+} */
 
 /* / OFFERINGS SECTION */
 
 /* FAVORITES SECTION by Vlad */
-.our-favorites-background {
+/* .our-favorites-background {
   padding-top: 120px;
   padding-bottom: 100px;
 }
@@ -353,13 +353,13 @@ input {
 .our-favorites-img-container:hover,
 .our-favorites-img-container:focus {
   border: 16px solid var(--light-green);
-}
+} */
 
 /* /FAVORITES SECTION */
 
 /* CUSTOMERS COMMENT by Gleb */
 
-.customers-comment-container {
+/* .customers-comment-container {
   width: 1280px;
   padding-left: 32px;
   margin-left: auto;
@@ -441,11 +441,11 @@ input {
   font-size: 14px;
   font-weight: 400;
   line-height: 1.5;
-}
+} */
 /* /CUSTOMERS COMMENT by Gleb*/
 
 /* SUBSCRIBE SECTION by Inna */
-.subscribe-section {
+/* .subscribe-section {
   padding-top: 176px;
   padding-bottom: 201px;
 }
@@ -518,12 +518,12 @@ input {
 .button-subscribe:focus {
   background-color: var(--yellow-main);
   border-color: var(--yellow-main);
-}
+} */
 /* /SUBSCRIBE SECTION by Inna */
 
 /* FOOTER SECTION by DIMA */
-.section-footer {
-  padding-top: 100px;
+/*.section-footer {
+   padding-top: 100px;
   padding-bottom: 100px;
   box-shadow: 0px -4px 24px 0px rgba(105, 105, 105, 0.1);
 }
@@ -650,11 +650,11 @@ input {
 .footer-list-link:hover,
 .footer-list-link:focus {
   color: var(--yellow-main);
-}
+} */
 /* FOOTER SECTION by Dima */
 
 /* MODAL by Vlad */
-.backdrop {
+/* .backdrop {
   background: rgba(94, 99, 99, 0.7);
   position: fixed;
   top: 0;
@@ -763,5 +763,5 @@ input {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-}
+} */
 /* / MODAL */

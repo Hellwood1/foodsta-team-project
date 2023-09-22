@@ -1,0 +1,17 @@
+/* ---BASE--- */
+@import './base/common.css';
+@import './base/container.css';
+
+/* ---UTILS--- */
+@import './utils/variables.css';
+@import './utils/visually-hidden.css';
+
+/* ---LAYOUT--- */
+@import './layout/header.css';
+@import './layout/hero-section.css';
+@import './layout/offerings-section.css';
+@import './layout/favorites-section.css';
+@import './layout/customers-comment.css';
+@import './layout/subscribe-section.css';
+@import './layout/footer-section.css';
+@import './layout/modal-window.css';

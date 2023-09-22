@@ -1,0 +1,76 @@
+/* SUBSCRIBE SECTION by Inna */
+.subscribe-section {
+  padding-top: 176px;
+  padding-bottom: 201px;
+}
+
+.subscribe-section-container {
+  width: 1280px;
+  padding-left: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.subscribe-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subscribe-title {
+  width: 656px;
+  margin-bottom: 20px;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.subscribe-text {
+  width: 532px;
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.subscribe-form:focus-within {
+  border-color: var(--yellow-main);
+}
+
+.subscribe-label {
+  display: block;
+}
+
+.subscribe-input {
+  width: 395px;
+  height: 42px;
+  padding: 12px;
+  border-radius: 30px;
+  border: 1px solid var(--yellow-main);
+  background: var(--white);
+}
+
+.button-subscribe {
+  padding: 11px 22px;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: none;
+  border-radius: 30px;
+  background-color: var(--light-green);
+  transition: var(--timing-function);
+}
+.button-subscribe:hover,
+.button-subscribe:focus {
+  background-color: var(--yellow-main);
+  border-color: var(--yellow-main);
+}
+/* /SUBSCRIBE SECTION by Inna */
