@@ -38,6 +38,8 @@ button {
   color: currentColor;
   font-family: inherit;
   user-select: none;
+  padding: 0;
+  line-height: 0;
 }
 
 input {
