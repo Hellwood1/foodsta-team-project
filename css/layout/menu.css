@@ -3,15 +3,14 @@
     flex-direction: column;
     position: fixed;
     transform: translate(-50%, -50%) scale(1);
-    width: 320px;
-    height: 311%;
+    width: 170px;
+    height: 311px;
     z-index: 999;
     padding-top: 16px;
     padding-left: 16px;
 
-
     top: 0;
-    left: 480;
+    left: 311;
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
 
