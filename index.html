@@ -21,7 +21,7 @@
   </head>
   <body>
     <header class="page-header">
-      <div class="page-container header-container">
+      <div class="container header-container">
         <nav class="header-nav">
           <a class="header-link" href="./index.html"
             ><img
@@ -49,11 +49,16 @@
             </li>
           </ul>
         </nav>
+        <button class="mobile-open-btn">
+          <svg class="mobile-open-icon" width="28" height="28">
+            <use href="./images/icons.svg#icon-menu"></use>
+          </svg>
+        </button>
         <button class="header-order-btn" type="submit">Order Now</button>
       </div>
     </header>
     <main>
-      <!-- HERO SECTION Ihor -->
+      <!-- HERO SECTION Ihor
       <section class="hero">
         <div class="page-container hero-container">
           <div class="hero-description-wrap">
@@ -76,11 +81,10 @@
             />
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- OFFERINGS SECTION -->
-      <section class="offerings-section">
-        <!-- Vlad -->
+      <!-- <section class="offerings-section">
         <div class="page-container offerings">
           <div class="border-wrap">
             <div class="image-apple-wrap">
@@ -132,15 +136,54 @@
             <button class="offerings-button" type="button">Order Now</button>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- /OFFERINGS SECTION -->
-      <section class="favorites"><!-- Dasha --></section>
+      <!-- <section class="favorites"></section> -->
 
-      <section class="customers-comment"><!-- Gleb --></section>
+      <!-- <section class="customers-comment"></section> -->
       <!-- SECTION subscribe Inna -->
-      <section class="subscribe-section page-container">
-        <div class="subscribe-wrap">
+      <section class="subscribe-section" >
+        <div class="subscribe-wrap container">
           <div class="subscribe-form-cover">
+            <div class="subscribe-img-cover">
+              <picture class="subscribe-img">
+                <!-- Desktop screen -->
+              
+                <source
+                  media="(min-width: 1280px)"
+                  srcset="./images/gallery/img-1_lg.jpg 1x, ./images/gallery/img-1_lg@2x.jpg 2x"
+                  type="image/jpg"
+                />
+                <!-- Tablet screen -->
+              
+                <source
+                  media="(min-width: 768px)"
+                  srcset="./images/banan-tab1x.png 1x, ./images/banan-tab2x.png 2x"
+                  type="image/png"
+                />
+                <!-- Mobile screen -->
+              
+                <source
+                  media="(max-width: 767px)"
+                  srcset="./images/banan-mob1x.png 1x, ./images/banan-mob2x.png 2x"
+                  type="image/png"
+                />
+                <img
+                  class="card-img"
+                  src="./images/gallery/img-1_sm.jpg"
+                  alt="Ноутбук"
+                  width="450"
+                  height="294"
+                  loading="lazy"
+                />
+              </picture>
+              <!-- <img
+                src="./images/banan.png"
+                alt="banan"
+                width="608px"
+                height="266px"
+              /> -->
+            </div>
             <h2 class="subscribe-title">Subscribe To Get Special Offers</h2>
             <p class="subscribe-text">
               Order now and receive 10% off your first meal with Enjoy Your
@@ -159,21 +202,13 @@
               <button class="button-subscribe" type="submit">Subscribe</button>
             </form>
           </div>
-          <div class="subscribe-img-cover">
-            <img
-              src="./images/banan.png"
-              alt="banan"
-              width="608px"
-              height="266px"
-            />
-          </div>
+          
         </div>
       </section>
     </main>
     <footer>
-      <!-- Artem -->
-    </footer>
+    <!-- </footer> -->
     <!-- Name Surname -->
-    <div class="order-form"></div>
+    <!-- <div class="order-form"></div> -->
   </body>
 </html>
