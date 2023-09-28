@@ -1,0 +1,95 @@
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    /* transform: translate(-50%, -50%) scale(1); */
+    width: 170px;
+    height: 311px;
+    z-index: 999;
+    padding-top: 16px;
+    padding-left: 16px;
+
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+    transition: transform 250ms ease-in-out;
+
+    background: var(--Button-green, #BBF330);
+    /* Meny shadow */
+    box-shadow: 0px 4px 24px 0px rgba(105, 105, 105, 0.10);
+}
+
+.icon-close-black {
+    fill: #2C2C2C;
+}
+
+.menu-nav {
+    margin-bottom: auto;
+}
+
+.menu-link-home {
+    color: #2C2C2C;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.menu-link {
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+
+}
+
+.menu-ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+/* =============Menu jc ============================*/
+
+.menu-toggle {
+    background-color: transparent;
+    display: flex;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    padding: 0;
+    border: none;
+
+}
+
+
+.menu-container.is-open {
+    transform: translateX(0);
+}
+
+.menu-container .menu-toggle {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 7px;
+    right: 9px;
+    color: #fff;
+    width: 24px;
+    height: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    margin-top: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .menu-container {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1158px) {}
